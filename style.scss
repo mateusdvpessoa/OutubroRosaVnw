@@ -1,0 +1,138 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    font-family: "Noto Sans", sans-serif;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+header {
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    height:11.88vh;
+    background-color:#FF69B4;
+    padding:0 40px 0 40px;
+    
+    .header-div {
+        display:flex;
+        align-items: center;
+        display: flex;
+        width: 20vw;
+    
+        h1 {
+            font-size: 1.7vw;
+            font-weight:400;
+            color: #E4EEF1;
+        }
+        
+    }
+    
+    img {
+        height:100px;
+        width:100px;
+    }
+    
+    nav ul{
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        width:50vw;
+        font-size: 1.7vw;
+        
+        
+        a {
+            color: #E4EEF1;
+            text-decoration: none;
+        }
+    }
+}
+
+main {
+
+    #section1 {
+        height:40vh;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        background-color: #FFD9EC;
+        gap:8vw;
+
+        .txts1 {
+            font-size: 1.30vw;
+            width:30.57vw;
+        }
+        
+        img {
+            width: 19.01vw;
+        }
+    }
+
+    #section2 {
+        height:26.38vh;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        background-color: #FF69B4;
+
+        gap:8vw;
+
+        .txts2 {
+            font-size: 1.30vw;
+            width:33.75vw;
+        }
+        
+        img {
+            height: 23.56vh;
+            width: 23.92vw;
+        }
+    }
+    
+    #section3 {
+        height:42.90vh;
+        display:flex;
+        align-items:center;
+        justify-content: center;
+        background-color: #FFD9EC;
+        gap:8vw;
+        
+        img {
+            height: 25.17vh;
+            width: 25.17vh;
+        }
+    }
+}
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height:14.40vh;
+    padding:0 5.2vw 0 5.2vw;
+    background-color: #FF69B4;
+
+
+    nav {
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+        width:15vw;
+        img {
+            height:5.63vh;
+        }
+    }
+
+    ul {
+        display:flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color:#E4EEF1;
+        font-size: 2.01vh;
+    }
+    figure img{
+        height:10.57vh;
+        width:5.67vw;
+    }
+}
